@@ -19,6 +19,8 @@ The goal and exit criteria are in [docs/GOAL.md](docs/GOAL.md). The model study 
 ## Install on a phone (Pixel 9 Pro)
 
 ```sh
+git clone --recursive https://github.com/ChristopherJMiller/imagine-3d-app   # llama.cpp is a submodule
+cd imagine-3d-app
 nix develop                                        # JDK 21, Android SDK 37 / NDK r29 / CMake, OpenSCAD, llama.cpp, ...
 ./gradlew assembleRelease -Pabis=arm64-v8a         # phone-only APK, ~67 MB (first build compiles llama.cpp, ~4 min)
 adb install -r app/build/outputs/apk/release/app-release.apk
