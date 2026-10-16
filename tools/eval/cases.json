@@ -1,0 +1,297 @@
+[
+ {
+  "id": "cabinet-towel",
+  "request": "A hook that hangs over my kitchen cabinet door to hold a dish towel.",
+  "measurements": [
+   {
+    "label": "cabinet door thickness",
+    "mm": 19
+   }
+  ],
+  "expect": [
+   "over_door_hook"
+  ]
+ },
+ {
+  "id": "key-hook",
+  "request": "Small hook by the front door to hang my keys. I'll stick it on with a command strip, no screws.",
+  "measurements": [],
+  "expect": [
+   "wall_hook"
+  ],
+  "checks": [
+   "holes\\s*=\\s*0"
+  ]
+ },
+ {
+  "id": "desk-headphones",
+  "request": "A clip for the edge of my desk to hang my headphones underneath.",
+  "measurements": [
+   {
+    "label": "desk thickness",
+    "mm": 25
+   },
+   {
+    "label": "headband width",
+    "mm": 38
+   }
+  ],
+  "expect": [
+   "shelf_clip_hook"
+  ]
+ },
+ {
+  "id": "spray-bottle",
+  "request": "Holder for a spray bottle, screwed to the side of the cabinet under the sink.",
+  "measurements": [
+   {
+    "label": "bottle diameter",
+    "mm": 72
+   }
+  ],
+  "expect": [
+   "ring_holder"
+  ]
+ },
+ {
+  "id": "drawer-organizer",
+  "request": "Organizer tray for my junk drawer with 6 compartments.",
+  "measurements": [
+   {
+    "label": "drawer inner width",
+    "mm": 280
+   },
+   {
+    "label": "drawer inner depth",
+    "mm": 380
+   },
+   {
+    "label": "drawer inner height",
+    "mm": 60
+   }
+  ],
+  "expect": [
+   "tray"
+  ],
+  "checks": [
+   "div\\s*=\\s*\\[\\s*(3\\s*,\\s*2|2\\s*,\\s*3|6\\s*,\\s*1|1\\s*,\\s*6)\\s*\\]|(cols|columns)\\s*=\\s*(3|2)"
+  ]
+ },
+ {
+  "id": "usb-cables",
+  "request": "Clips to route 3 USB cables along the back edge of my desk.",
+  "measurements": [
+   {
+    "label": "cable diameter",
+    "mm": 4
+   }
+  ],
+  "expect": [
+   "cable_clip"
+  ]
+ },
+ {
+  "id": "closet-bag",
+  "request": "A hook to hang a tote bag from the closet rod.",
+  "measurements": [
+   {
+    "label": "rod diameter",
+    "mm": 32
+   }
+  ],
+  "expect": [
+   "rail_hook"
+  ]
+ },
+ {
+  "id": "shelf-bracket",
+  "request": "Brackets to hold up a small floating shelf board on the wall.",
+  "measurements": [
+   {
+    "label": "board thickness",
+    "mm": 12
+   },
+   {
+    "label": "board depth",
+    "mm": 150
+   }
+  ],
+  "expect": [
+   "l_bracket"
+  ]
+ },
+ {
+  "id": "toothbrush",
+  "request": "Wall-mounted holder for my electric toothbrush handle.",
+  "measurements": [
+   {
+    "label": "handle diameter",
+    "mm": 28
+   }
+  ],
+  "expect": [
+   "ring_holder"
+  ]
+ },
+ {
+  "id": "mug-hook",
+  "request": "Hook that clips onto the front of a shelf so I can hang mugs under it.",
+  "measurements": [
+   {
+    "label": "shelf thickness",
+    "mm": 18
+   }
+  ],
+  "expect": [
+   "shelf_clip_hook"
+  ]
+ },
+ {
+  "id": "leg-cap",
+  "request": "A cap that pushes into the open end of a square metal tube table leg so it stops scratching the floor.",
+  "measurements": [
+   {
+    "label": "tube outer width",
+    "mm": 25
+   },
+   {
+    "label": "tube wall thickness",
+    "mm": 1.5
+   }
+  ],
+  "expect": [
+   "tube_plug"
+  ]
+ },
+ {
+  "id": "door-wedge",
+  "request": "A door stop wedge to keep the bedroom door open.",
+  "measurements": [
+   {
+    "label": "gap under the door",
+    "mm": 14
+   }
+  ],
+  "expect": [
+   "door_stop",
+   "wedge"
+  ]
+ },
+ {
+  "id": "remote-holder",
+  "request": "A small box that sticks to the side of my nightstand to hold the TV remote.",
+  "measurements": [
+   {
+    "label": "remote width",
+    "mm": 48
+   },
+   {
+    "label": "remote thickness",
+    "mm": 22
+   }
+  ],
+  "expect": [
+   "tray",
+   "freeform"
+  ]
+ },
+ {
+  "id": "plant-pot-saucer",
+  "request": "A round saucer to go under a small plant pot.",
+  "measurements": [
+   {
+    "label": "pot base diameter",
+    "mm": 95
+   }
+  ],
+  "expect": [
+   "cup"
+  ]
+ },
+ {
+  "id": "hex-pencil-cup",
+  "request": "A hexagonal pencil cup for my desk.",
+  "measurements": [],
+  "expect": [
+   "cup",
+   "freeform"
+  ],
+  "checks": [
+   "sides\\s*=\\s*6|\\$fn\\s*=\\s*6"
+  ]
+ },
+ {
+  "id": "monitor-spacer",
+  "request": "Round spacers to raise my monitor stand a bit, with a hole through the middle for the M6 bolt.",
+  "measurements": [
+   {
+    "label": "spacer height",
+    "mm": 8
+   },
+   {
+    "label": "outer diameter",
+    "mm": 30
+   }
+  ],
+  "expect": [
+   "freeform",
+   "tube",
+   "cup"
+  ]
+ },
+ {
+  "id": "sd-card-holder",
+  "request": "A holder with slots for 6 SD cards standing upright.",
+  "measurements": [
+   {
+    "label": "SD card thickness",
+    "mm": 2.1
+   },
+   {
+    "label": "SD card width",
+    "mm": 24
+   }
+  ],
+  "expect": [
+   "freeform"
+  ]
+ },
+ {
+  "id": "refine-second-hook",
+  "request": "A hook that hangs over my wardrobe door for my bathrobe.",
+  "measurements": [
+   {
+    "label": "door thickness",
+    "mm": 22
+   }
+  ],
+  "expect": [
+   "over_door_hook"
+  ],
+  "refine": "Add a second hook next to it so I can hang two things."
+ },
+ {
+  "id": "refine-wider-tray",
+  "request": "A tray for my keys and wallet by the front door.",
+  "measurements": [],
+  "expect": [
+   "tray"
+  ],
+  "refine": "Make it 40 mm wider and add a divider in the middle.",
+  "checks": [
+   "div\\s*=\\s*\\[\\s*2\\s*,\\s*1\\s*\\]|div\\s*=\\s*\\[\\s*1\\s*,\\s*2\\s*\\]|(cols|columns)\\s*=\\s*2"
+  ]
+ },
+ {
+  "id": "refine-adhesive",
+  "request": "A hook for my headphones on the side of my monitor stand.",
+  "measurements": [],
+  "expect": [
+   "wall_hook"
+  ],
+  "refine": "Use adhesive instead of screws.",
+  "checks": [
+   "holes\\s*=\\s*0"
+  ]
+ }
+]

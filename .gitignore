@@ -1,0 +1,23 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.aab
+.idea/
+*.iml
+.kotlin/
+
+# Nix
+result
+result-*
+.direnv/
+
+# Large local artifacts
+models/
+third_party/downloads/
+tools/eval/out/
+.avd/

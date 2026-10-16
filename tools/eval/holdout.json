@@ -1,0 +1,14 @@
+[
+ {"id": "ho-charger-clip", "request": "Something to keep my phone charger cable from falling behind the nightstand.",
+  "measurements": [{"label": "nightstand top thickness", "mm": 20}, {"label": "cable diameter", "mm": 3.5}], "expect": ["shelf_clip_hook", "cable_clip", "freeform"]},
+ {"id": "ho-soap-dish", "request": "A soap dish with drainage holes for the edge of the bathtub.",
+  "measurements": [{"label": "soap bar length", "mm": 90}, {"label": "soap bar width", "mm": 60}], "expect": ["tray", "freeform"]},
+ {"id": "ho-broom-holder", "request": "A wall holder that grips my broom handle so it stands up.",
+  "measurements": [{"label": "broom handle diameter", "mm": 24}], "expect": ["ring_holder", "freeform"]},
+ {"id": "ho-bag-hook", "request": "A hook that clips onto the edge of my desk to hang my backpack.",
+  "measurements": [{"label": "desk thickness", "mm": 28}], "expect": ["shelf_clip_hook"]},
+ {"id": "ho-chair-feet", "request": "Feet for my metal chair legs so they stop scratching the floor.",
+  "measurements": [{"label": "leg tube outside diameter", "mm": 22}, {"label": "tube wall", "mm": 1.2}], "expect": ["tube_plug"]},
+ {"id": "ho-spice-rack", "request": "A small rack for 4 spice jars standing in a row inside my cupboard.",
+  "measurements": [{"label": "jar diameter", "mm": 45}], "expect": ["tray", "freeform", "cup"]}
+]

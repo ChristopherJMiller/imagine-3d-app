@@ -1,0 +1,15 @@
+{
+  "comment": "Regexes applied to OpenSCAD console lines. A match in 'fatal' means the design is broken and goes back to the LLM for repair.",
+  "fatal": [
+    "^ERROR:",
+    "Ignoring unknown (variable|module|function)",
+    "undefined operation",
+    "Too many unnamed arguments",
+    "Current top level object is empty",
+    "Parser error",
+    "Unable to convert",
+    "requires .* argument",
+    "is not defined",
+    "Recursion detected"
+  ]
+}

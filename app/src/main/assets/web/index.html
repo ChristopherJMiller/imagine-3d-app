@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Imagine3D viewer</title>
+  <style>
+    :root { --bg: #16181d; --fg: #c9ced8; --chip: rgba(0, 0, 0, 0.4); }
+    html, body { margin: 0; height: 100%; background: var(--bg); overflow: hidden; font-family: system-ui, sans-serif; }
+    #c { position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; display: block; touch-action: none; }
+    .chip { position: fixed; color: var(--fg); background: var(--chip); font: 12px/1.35 ui-monospace, monospace;
+            padding: 4px 8px; border-radius: 6px; pointer-events: none; }
+    #dims { left: 8px; bottom: 8px; }
+    #busy { right: 8px; top: 8px; }
+    #empty { left: 50%; top: 50%; transform: translate(-50%, -50%); background: none; text-align: center; opacity: 0.7; white-space: nowrap; }
+    [hidden] { display: none !important; }
+  </style>
+  <script type="importmap">{ "imports": { "three": "./three/three.module.js" } }</script>
+</head>
+<body>
+  <canvas id="c"></canvas>
+  <div id="dims" class="chip" hidden></div>
+  <div id="busy" class="chip" hidden>rendering…</div>
+  <div id="empty" class="chip">No model yet</div>
+  <script type="module" src="./viewer.js"></script>
+</body>
+</html>

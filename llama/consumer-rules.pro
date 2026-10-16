@@ -1,0 +1,2 @@
+-keep class app.imagine3d.llama.LlamaNative { *; }
+-keep interface app.imagine3d.llama.TokenCallback { *; }
