@@ -132,5 +132,22 @@ writing plus well under a second of OpenSCAD.
   shelf lip, a rail) as a polygon for snug-fitting clips.
 - **Print orientation.** Rotate the preview to show "as installed" against "as printed".
 - **Slicer hand-off.** Export 3MF with print settings.
-- **Licences.** OpenSCAD is GPL-2.0; the wasm build is bundled, so treat the app as GPL if you
-  distribute it. Models are Apache-2.0.
+- **Licences.** See [License](#license). Models are Apache-2.0 and are downloaded, not bundled.
+
+## License
+
+Copyright (C) 2026 Christopher Miller
+
+This program is free software: you can redistribute it and/or modify it under the terms of the
+GNU General Public License as published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version. See [LICENSE](LICENSE).
+
+**Additional permission under GNU GPL version 3 section 7.** If you modify this program, or any
+covered work, by linking or combining it with the ARCore SDK or Google Play services libraries
+(or a modified version of those libraries), containing parts covered by the terms of their
+respective licenses, the licensors of this program grant you additional permission to convey
+the resulting work.
+
+Bundled third-party components and their licenses are listed in
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). OpenSCAD is GPL-2.0-or-later and is used here
+under GPL-3.0; three.js and llama.cpp are MIT.

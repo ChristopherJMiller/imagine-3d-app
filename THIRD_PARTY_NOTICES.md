@@ -7,8 +7,10 @@
 | llama.cpp v0.7.0 (git submodule) | `third_party/llama.cpp` | MIT | https://github.com/ggml-org/llama.cpp |
 | ARCore SDK, AndroidX, Jetpack Compose, Kotlin libraries | Gradle dependencies | Apache-2.0 / Google APIs Terms (ARCore) | Maven |
 
-Because the APK bundles the OpenSCAD WebAssembly binary, a built APK is distributed under the
-terms of the GPL for that component.
+The project as a whole is GPL-3.0-or-later (see `LICENSE` and the README). OpenSCAD's
+GPL-2.0-or-later terms allow distributing it under GPL-3.0, and MIT and Apache-2.0 components
+are GPL-3.0-compatible. The ARCore SDK is linked under the additional permission stated in the
+README.
 
 Model weights are not part of this repository. The app downloads them on demand from Hugging
 Face. The catalog (`app/src/main/assets/models/catalog.json`) lists Qwen3 / Qwen3.5 (Apache-2.0)
